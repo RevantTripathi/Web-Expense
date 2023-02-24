@@ -1,13 +1,57 @@
-.loginBox{
+.loginBox {
     border-width: 10px;
     border-style: solid;
-    border-image: linear-gradient( to right,
-    darkblue,
-    darkorchid);
+    border-image: linear-gradient(to right,
+            darkblue,
+            darkorchid);
     border-image-slice: 1;
     /* margin-top: 100px;
     margin-left:700px; */
-    margin: 100px 0px 0px 700px;
-    width: 700px;
+    /* margin: 100px 0px 0px 700px; */
+    max-width: 50%;
     height: 500px;
+
+    flex-grow: 1;
+    margin-top: 100px;
+    background: rgb(51, 48, 54);
+/* background: linear-gradient(90deg, rgb(195, 121, 245) 0%, rgb(239, 100, 100) 50%, rgb(255, 185, 86) 100%); */
+
 }
+
+.login_form {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    width: 300px;
+    margin: 0px auto;
+    color: white;
+}
+
+.email_input {
+    padding-top: 100px;
+}
+
+.email_input>input {
+    margin-left: 50px;
+}
+
+.password_input>input {
+    margin-left: 22px;
+}
+
+.login_bt {
+    margin: 0 auto;
+}
+
+
+.change_page {
+    align-items: left;
+    margin-top: 40px;
+}
+
+/* this is to remove placeholder on focus   */
+input:focus::placeholder {
+    color: transparent;
+  }
