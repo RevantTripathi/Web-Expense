@@ -24,7 +24,7 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 40px;
-    width: 300px;
+    width: 400px;
     margin: 0px auto;
     color: white;
 }
@@ -34,24 +34,67 @@
 }
 
 .email_input>input {
-    margin-left: 50px;
+    margin-left: 57px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
 }
 
 .password_input>input {
     margin-left: 22px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
 }
-
+label{
+    font-size: 20px;
+}
 .login_bt {
     margin: 0 auto;
+    margin-left: 108px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
 }
 
 
 .change_page {
     align-items: left;
     margin-top: 40px;
+    border: none;
+    color: white;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 /* this is to remove placeholder on focus   */
 input:focus::placeholder {
     color: transparent;
   }
+
+  @media screen and (max-width: 600px) {
+    .login_form, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      
+      
+    }
+    label{
+        margin-left: 2%;
+    }
+    .email_input>input {
+        margin-left:4px;
+    }
+    .password_input>input {
+        margin-left: 4px;
+    }
+    .login_bt{
+        margin-left: 10%;
+    }
+    }
+
+
+  
