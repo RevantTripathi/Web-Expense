@@ -1,0 +1,59 @@
+.signUpBox2{
+    
+    border-width: 10px;
+    border-style: solid;
+   margin-top:11vh;
+   margin-left: 25vw;
+    height: 75vh;
+    width: 50vw;
+
+    
+}
+
+.signup_form {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+    margin: 0px auto;
+    color: rgb(0, 0, 0);
+    padding-top: 10vh;
+}
+
+.first_input >input {
+    margin-left: 70px;
+    height: 6vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+.last_input>input {
+    margin-left: 71px;
+    height: 6vh;
+    width: 240px;
+    border-radius: 5px;
+}
+
+.email_inputs>input {
+    margin-left: 117px;
+    height: 6vh;
+    width: 240px;
+    border-radius: 5px;
+}
+.password_inputs>input {
+    margin-left: 67px;
+    height: 6vh;
+    width: 240px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .signup_form, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      
+      
+    }
+}

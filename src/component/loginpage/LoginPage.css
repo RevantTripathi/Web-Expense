@@ -52,7 +52,8 @@ label{
 .login_bt {
     margin: 0 auto;
     margin-left: 108px;
-    border: none;
+    border: none; 
+    border-style:white solid;
     cursor: pointer;
     padding: 10px;
     width: 200px;
@@ -63,7 +64,8 @@ label{
 .change_page {
     align-items: left;
     margin-top: 40px;
-    border: none;
+    /* border: none; */
+    border-color: white;
     color: white;
     background: none;
     cursor: pointer;
